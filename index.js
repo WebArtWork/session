@@ -22,4 +22,5 @@ module.exports = function(sd){
 		rolling: true,
 		store: store
 	}));
+	sd.store = store;
 }
